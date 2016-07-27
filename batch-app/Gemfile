@@ -23,7 +23,7 @@ group :development do
 end
 
 platforms :jruby do
-  gem 'torquebox', '>= 3.1.2'
+  gem 'torquebox', '>= 4.0.0.beta3'
 
   gem 'activerecord-jdbc-adapter'
   gem 'jdbc-postgresql'
